@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+}
+.navbar-brand{
+	padding-top: 5px;
+	
+}
+.navbar-brand {
+	font-weight: 600;
+	padding:15px;
+	margin-top: 0px;
+	font-size: 30px;
+	font-family: oxygen;
+	color: #000;
+	text-decoration: ;
+}
+.navbar{
+	background-color: #999;
+	border-radius: 0;
+	border: 2px solid #000;
+}
+
+ul{
+	list-style: none;
+}
+
+/*content*/
+.row .tiles{
+	background-color: #888;
+	border: 2px solid #000;
+	padding:5px 15px;	
+	color: #000;
+	position: relative;
+	margin-bottom: 15px;
+
+}
+.items{
+	border:2px solid red;
+	width: 100%;
+	height: 100px;
+}
+.tiles h3{
+	position: absolute;
+	top:-10px;
+	
+	color: #000;
+	width: 100%;
+	text-align: center;
+	margin-left: -15px;
+	
+	
+	font-size: 1.5em;
+}
+
+.tiles p{
+	margin-top: 30px;
+	
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+
+
+.nav > li > a{
+	visibility: hidden;
+}
+
+@media screen and (max-width: 768px){
+
+.nav > li > a{
+	text-align: center;
+	border: 1px solid #000;
+	color: #000;
+	font-size: 1.2em;
+	margin-bottom: 2px;
+	background-color: #ccc;
+	text-shadow: 0 0 5px;
+	padding-top: 10px;
+	line-height: 10px;
+	visibility: visible;
+}
+
+}
+@media screen and (min-width: 1000px){
+	.tiles{
+		height: 700px;
+	}
+}
